@@ -1,0 +1,647 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+       }
+     .nav{
+        background-color:  rgb(15, 224, 15);
+        
+        width: 100%;
+        padding-bottom: 540px;
+        box-sizing: border-box;
+       overflow: hidden;
+      
+        }
+       
+        
+        .nav div{
+          position: absolute;
+          top: 370px;
+          right: 320px;
+          
+        }
+      
+       
+.nav ul li a{
+    color: black;
+    list-style: none;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+     transition: 0.5s ease-in-out;
+     display: flex;
+     justify-content: center;
+     position: relative; 
+     right: 97px;
+     top: 35px; 
+  }     
+  .nav{
+    float: left;
+    display: flex;
+    justify-content: center;
+  } 
+  .nav ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 180px;
+   
+  }
+  .nav ul li{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+  }
+  .logo{
+    position: absolute;
+    right: 1120px;
+    margin-top: 32px;
+  }
+
+  .joe{
+        overflow: hidden;
+        
+        box-sizing: border-box;
+        height: 47vh; 
+        position: absolute;
+        left: 97px;
+       
+        margin-left:  297px;
+        margin-top: 49px;
+        padding-top: 40px;
+        list-style: none;
+        border-radius: 20px;
+      
+    }
+    
+
+       .joe h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        word-spacing: 4px;
+       initial-letter-align: 90px;
+        font-weight: 900px;
+       }
+
+       .joe h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        word-spacing: 4px;
+        margin-left: 120px;
+        font-weight: 900px;
+        
+       }
+
+       .joe h6{
+        display: flex;
+        justify-content: center;
+       }
+
+        
+      .gg{
+        display: flex;
+        justify-content: center;
+        width: 199px;
+        border-radius: 19px;
+        padding: 10px;   
+        box-sizing: border-box;
+        background-color: rgb(15, 15, 15);
+        color: white;
+        position: absolute;
+        left: 545px;
+        top: 280px;
+        
+        transition: 0.5s ease-in-out;
+ 
+       }
+       .gg a{
+         text-decoration: none;
+         color: white;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        word-spacing: 2px;
+       }
+       .gg :hover{
+         background-color:rgb(80, 22, 22);
+       }
+
+       .get{
+        display: flex;
+        justify-content: center;
+        width: 169px;
+        border-radius: 12px;
+        padding: 12px;   
+        box-sizing: border-box;
+        background-color: rgb(15, 15, 15);
+        color: white;
+        position: absolute;
+        left: 1099px;
+        top: 23px;
+        
+        transition: 0.5s ease-in-out;
+ 
+       }
+       .get a{
+         text-decoration: none;
+         color: white;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        word-spacing: 2px;
+       }
+       .get :hover{
+         background-color:rgb(80, 22, 22);
+       }
+
+
+      .save{
+        margin-left: 430px;
+        position: relative;
+        top: 50px;
+        
+      }
+      .rent{
+        background-color: black;
+        border-radius: 12px;
+        width: 14%;
+        padding-bottom: 19px;
+        color: white;
+        margin-left: 60px;
+        position: absolute;
+        top: 780px;
+        left: 69px;
+        text-align: center;
+        
+      }
+      .rent h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .rent h5{
+        display: flex;
+        justify-content: center;
+      }
+      .rent h4{
+        display: flex;
+        justify-content: center;
+      }
+      .rent div{
+        display: flex;
+        justify-content: center;
+        background-color:  rgb(15, 224, 15);
+        border-radius: 7px;
+        width: 89%;
+        color: black;
+        padding: 6px;
+        position: relative;
+        left: 9px;
+      }
+      .home{
+        background-color: black;
+        border-radius: 12px;
+        width: 14%;
+        padding-bottom: 19px;
+        color: white;
+        margin-left: 60px;
+        position: absolute;
+        top: 780px;
+        left: 349px;
+        text-align: center;
+        
+      }
+      .home h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .home h5{
+        display: flex;
+        justify-content: center;
+      }
+      .home h4{
+        display: flex;
+        justify-content: center;
+      }
+      .home div{
+        display: flex;
+        justify-content: center;
+        background-color:  rgb(15, 224, 15);
+        border-radius: 7px;
+        width: 89%;
+        color: black;
+        padding: 6px;
+        position: relative;
+        left: 9px;
+      }
+
+      .car{
+        background-color: black;
+        border-radius: 12px;
+        width: 14%;
+        padding-bottom: 19px;
+        color: white;
+        margin-left: 60px;
+        position: absolute;
+        top: 780px;
+        left: 639px;
+        text-align: center;
+      }
+      .car h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .car h5{
+        display: flex;
+        justify-content: center;
+      }
+      .car h4{
+        display: flex;
+        justify-content: center;
+      }
+      .car div{
+        display: flex;
+        justify-content: center;
+        background-color:  rgb(15, 224, 15);
+        border-radius: 7px;
+        width: 89%;
+        color: black;
+        padding: 6px;
+        position: relative;
+        left: 9px;
+      }
+
+      .term{
+        background-color: black;
+        border-radius: 12px;
+        width: 14%;
+        padding-bottom: 19px;
+        color: white;
+        margin-left: 60px;
+        position: absolute;
+        top: 780px;
+        left: 919px;
+        text-align: center;
+      }
+      .term h3{
+        display: flex;
+        justify-content: center;
+       margin-top: 10px;
+        
+      }
+      .term h5{
+        display: flex;
+        justify-content: center;
+      }
+      .term h4{
+        display: flex;
+        justify-content: center;
+      }
+      .term div{
+        display: flex;
+        justify-content: center;
+        background-color:  rgb(15, 224, 15);
+        border-radius: 7px;
+        width: 89%;
+        color: black;
+        padding: 6px;
+        position: relative;
+        left: 9px;
+      }
+
+      .wha{
+        background-color: black;
+        box-sizing: border-box;
+        color: white;
+        border-radius: 6px;
+        width: 95%;
+        padding-bottom: 350px;
+        margin-left:40px;
+        margin-top: 430px;
+      }
+      .wha h2{
+        margin-left: 87px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        position: relative;
+        top: 51px;
+      }
+      .sup{
+        background-color:  rgb(15, 224, 15);
+        border-radius: 90%;
+        width: 17%;
+        margin-left: 87px;
+        padding-bottom: 70px;
+        padding-top: 42px;
+        padding-left: 27px;
+        position: absolute;
+        top: 1297px;
+
+      }
+
+      .sup h3{
+        margin-left: 20px;
+      }
+      .sup h4{
+        margin-left: 49px;
+        font-size: 20px;
+      }
+      .sup h5{
+        text-align: center;
+        margin-right: 27px;
+      }
+
+      .lov{
+        background-color:  rgb(15, 224, 15);
+        border-radius: 90%;
+        width: 17%;
+        margin-left: 537px;
+        padding-bottom: 85px;
+        padding-top: 42px;
+        padding-left: 27px;
+        position: absolute;
+        top: 1297px;
+        
+      }
+
+      .lov h3{
+       margin-right: 13px;
+        text-align: center;
+      }
+      .lov h4{
+        margin-right: 13px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .lov h5{
+        text-align: center;
+        margin-right: 27px;
+      }
+
+      .more{
+        background-color:  rgb(15, 224, 15);
+        border-radius: 90%;
+        width: 17%;
+        margin-left: 987px;
+        padding-bottom: 75px;
+        padding-top: 42px;
+        padding-left: 27px;
+        position: absolute;
+        top: 1297px;
+        text-align: center;
+
+      }
+
+      .more h3{
+        margin-left: -23px;
+      }
+      .more h4{
+        margin-left: -22px;
+        font-size: 20px;
+      }
+      .more h5{
+        text-align: center;
+        margin-right: 27px;
+      }
+      .real{
+        margin-left: 430px;
+        margin-top: 77px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+       
+      }
+      .real h3{
+        font-size: 34px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin-left: 84px;
+    }
+
+.star{
+    margin-left: 80px; 
+    margin-top: 70px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 20%;
+    padding: 19px;
+    padding-top: 12px;
+    position: relative;
+    transform: rotate(-5deg) scaleX(1.0);
+    
+}
+
+.star ul{
+    margin-left: -29px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.star2{
+    margin-left: 390px; 
+    margin-top: -198px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 20%;
+    padding: 19px;
+    padding-top: 12px;
+    position: relative;
+    transform: rotate(5deg) scaleX(1.0);
+    
+}
+
+.star2 ul{
+    margin-left: -29px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.star3{
+    margin-left: 689px; 
+    margin-top: -198px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 20%;
+    padding: 19px;
+    padding-top: 13px;
+    padding-bottom: 39px;
+    position: relative;
+    transform: rotate(-5deg) scaleX(1.0);
+    
+}
+
+.star3 ul{
+    margin-left: -29px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.star4{
+    margin-left: 999px; 
+    margin-top: -198px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 20%;
+    padding: 19px;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    
+}
+
+.star4 ul{
+    margin-left: -29px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.walk{
+    margin-top: 127px;
+    margin-left: 70px;
+    background-color: black;
+    width: 90%;
+    border-radius: 19px;
+    color: rgb(15, 224, 15) ;
+    padding-bottom: 40px;
+}
+
+.walk h3{
+    margin-left: 67px;
+   padding-top: 30px;
+   font-size: 37px;
+}
+.onee{
+    color: white;
+    border: 2px solid;
+    width: 11%;
+    border-radius: 7px;
+    position: absolute;
+    top: 2160px;
+    left: 710px;
+   padding-bottom: 9px;
+    padding-left: 44px;
+    padding-top: 12px;
+    padding-right: 3px;
+}
+
+
+.down{
+    color: white;
+    border: 2px solid;
+    width: 13%;
+    border-radius: 7px;
+    position: absolute;
+    top: 2160px;
+    left: 910px;
+    padding: 6px;
+    
+    
+}
+
+.down img{
+    position: relative;
+   
+    top: 5px;
+}
+.down h6{
+    position: absolute;
+    left: 57px;
+    bottom: 29px;
+}
+.down h4{
+    position: absolute;
+    left: 63px;
+    bottom: 6px;
+}
+
+.ballin {
+    margin-left: 430px;
+    position: relative;
+    top: 190px;
+    
+}
+.ballin div{
+ position: absolute;
+ right: 180px;
+ bottom: -810px;
+  opacity: 0px;  
+overflow: hidden;
+
+}
+.ballin h2{
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ballin p{
+    font-size: 17px;
+    right: -580px;
+    text-align: justify;
+    
+}
+
+.gett{
+    display: flex;
+    justify-content: center;
+    width: 169px;
+    border-radius: 12px;
+    padding: 12px;   
+    box-sizing: border-box;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    position: absolute;
+    left: 579px;
+    top: 2640px;
+    
+    transition: 0.5s ease-in-out;
+
+   }
+   .gett a{
+     text-decoration: none;
+     color: white;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: 2px;
+   }
+   .gett :hover{
+     background-color:rgb(80, 22, 22);
+   }
+ .foot{
+    overflow: hidden;
+    background-color: black;
+    height: 320px;
+    color: white;
+    margin-top: 450px;
+   margin-bottom: 100px;
+    
+    
+ }
+ .foot div{
+    overflow: hidden;
+  margin-left: 175px;
+  position: relative;
+  top: 30px;
+ }
+
+ .foot1 div{
+    overflow: hidden;
+  margin-left: 375px;
+  position: relative;
+  top: -157px;
+ }
+ .foot2 div{
+    overflow: hidden;
+    margin-left: 595px;
+    position: relative;
+    top: -347px;
+   }
+
+   .foot3 img{
+    position:absolute;
+    left: 240px;
+    bottom: 20px;
+    
+   }
+
+
+ 
+ 
